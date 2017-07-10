@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA7B7161F13C76E00BAF3CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7B7151F13C76E00BAF3CE /* main.m */; };
+		4AA7B7191F13C76E00BAF3CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7B7181F13C76E00BAF3CE /* AppDelegate.m */; };
+		4AA7B71C1F13C76E00BAF3CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7B71B1F13C76E00BAF3CE /* ViewController.m */; };
+		4AA7B71F1F13C76E00BAF3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7B71D1F13C76E00BAF3CE /* Main.storyboard */; };
+		4AA7B7211F13C76E00BAF3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7B7201F13C76E00BAF3CE /* Assets.xcassets */; };
+		4AA7B7241F13C76E00BAF3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA7B7221F13C76E00BAF3CE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AA7B7111F13C76E00BAF3CE /* Dynamic - Tính động trong Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic - Tính động trong Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA7B7151F13C76E00BAF3CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AA7B7171F13C76E00BAF3CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AA7B7181F13C76E00BAF3CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AA7B71A1F13C76E00BAF3CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AA7B71B1F13C76E00BAF3CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AA7B71E1F13C76E00BAF3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AA7B7201F13C76E00BAF3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AA7B7231F13C76E00BAF3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AA7B7251F13C76E00BAF3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA7B70E1F13C76E00BAF3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA7B7081F13C76E00BAF3CE = {
+			isa = PBXGroup;
+			children = (
+				4AA7B7131F13C76E00BAF3CE /* Dynamic - Tính động trong Objective-C */,
+				4AA7B7121F13C76E00BAF3CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA7B7121F13C76E00BAF3CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7B7111F13C76E00BAF3CE /* Dynamic - Tính động trong Objective-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA7B7131F13C76E00BAF3CE /* Dynamic - Tính động trong Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7B7171F13C76E00BAF3CE /* AppDelegate.h */,
+				4AA7B7181F13C76E00BAF3CE /* AppDelegate.m */,
+				4AA7B71A1F13C76E00BAF3CE /* ViewController.h */,
+				4AA7B71B1F13C76E00BAF3CE /* ViewController.m */,
+				4AA7B71D1F13C76E00BAF3CE /* Main.storyboard */,
+				4AA7B7201F13C76E00BAF3CE /* Assets.xcassets */,
+				4AA7B7221F13C76E00BAF3CE /* LaunchScreen.storyboard */,
+				4AA7B7251F13C76E00BAF3CE /* Info.plist */,
+				4AA7B7141F13C76E00BAF3CE /* Supporting Files */,
+			);
+			path = "Dynamic - Tính động trong Objective-C";
+			sourceTree = "<group>";
+		};
+		4AA7B7141F13C76E00BAF3CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7B7151F13C76E00BAF3CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA7B7101F13C76E00BAF3CE /* Dynamic - Tính động trong Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA7B7281F13C76E00BAF3CE /* Build configuration list for PBXNativeTarget "Dynamic - Tính động trong Objective-C" */;
+			buildPhases = (
+				4AA7B70D1F13C76E00BAF3CE /* Sources */,
+				4AA7B70E1F13C76E00BAF3CE /* Frameworks */,
+				4AA7B70F1F13C76E00BAF3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic - Tính động trong Objective-C";
+			productName = "Dynamic - Tính động trong Objective-C";
+			productReference = 4AA7B7111F13C76E00BAF3CE /* Dynamic - Tính động trong Objective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA7B7091F13C76E00BAF3CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "iDev Bao";
+				TargetAttributes = {
+					4AA7B7101F13C76E00BAF3CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93L9L9RF27;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AA7B70C1F13C76E00BAF3CE /* Build configuration list for PBXProject "Dynamic - Tính động trong Objective-C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA7B7081F13C76E00BAF3CE;
+			productRefGroup = 4AA7B7121F13C76E00BAF3CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA7B7101F13C76E00BAF3CE /* Dynamic - Tính động trong Objective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA7B70F1F13C76E00BAF3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7B7241F13C76E00BAF3CE /* LaunchScreen.storyboard in Resources */,
+				4AA7B7211F13C76E00BAF3CE /* Assets.xcassets in Resources */,
+				4AA7B71F1F13C76E00BAF3CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA7B70D1F13C76E00BAF3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7B71C1F13C76E00BAF3CE /* ViewController.m in Sources */,
+				4AA7B7191F13C76E00BAF3CE /* AppDelegate.m in Sources */,
+				4AA7B7161F13C76E00BAF3CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AA7B71D1F13C76E00BAF3CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA7B71E1F13C76E00BAF3CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AA7B7221F13C76E00BAF3CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA7B7231F13C76E00BAF3CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA7B7261F13C76E00BAF3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AA7B7271F13C76E00BAF3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA7B7291F13C76E00BAF3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93L9L9RF27;
+				INFOPLIST_FILE = "Dynamic - Tính động trong Objective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idevbao.Dynamic---Ti-nh--o--ng-trong-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AA7B72A1F13C76E00BAF3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93L9L9RF27;
+				INFOPLIST_FILE = "Dynamic - Tính động trong Objective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idevbao.Dynamic---Ti-nh--o--ng-trong-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA7B70C1F13C76E00BAF3CE /* Build configuration list for PBXProject "Dynamic - Tính động trong Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA7B7261F13C76E00BAF3CE /* Debug */,
+				4AA7B7271F13C76E00BAF3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA7B7281F13C76E00BAF3CE /* Build configuration list for PBXNativeTarget "Dynamic - Tính động trong Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA7B7291F13C76E00BAF3CE /* Debug */,
+				4AA7B72A1F13C76E00BAF3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA7B7091F13C76E00BAF3CE /* Project object */;
+}
